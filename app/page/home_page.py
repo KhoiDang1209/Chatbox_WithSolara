@@ -9,7 +9,7 @@ template="""Question:{question}
  Answer: {answer}"""
 prompt=ChatPromptTemplate.from_template(template)
 
-model=OllamaLLM(model='llama3')
+model=OllamaLLM(model='llama3.1')
 
 
 

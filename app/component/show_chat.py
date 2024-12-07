@@ -27,8 +27,8 @@ def get_ai_chat(chain: OllamaLLM, current_mess: str):
     ], user=False)
 
 
-# async def async_get_ai_chat(chain: OllamaLLM, current_mess: str):
-#     return await sync_to_async(get_ai_chat)(chain, current_mess)
+async def async_get_ai_chat(chain: OllamaLLM, current_mess: str):
+    return await sync_to_async(get_ai_chat)(chain, current_mess)
 
 def get_old_mess():
     old_mess = []
