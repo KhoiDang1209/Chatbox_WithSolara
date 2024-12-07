@@ -40,7 +40,7 @@ def home_page():
             }
         ) as showchat:
             show_chat(
-                message_reactive=message,
+                mess_reactive=message,
                 config_model={
                     'model': model,
                     'prompt': prompt,

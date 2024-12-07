@@ -1,6 +1,13 @@
-from app.page import (home_page)
-from app.layout import (base_layout)
-ROUTES=[
+from app.page import (
+    home_page,
+)
+
+from app.layout import (
+    base_layout,
+)
+
+
+ROUTES = [
     {
         'path': '/',
         'component': home_page,
